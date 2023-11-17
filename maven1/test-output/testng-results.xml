@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Login form displayed.]]>
+    </line>
+    <line>
+      <![CDATA[User logged out successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Login form displayed.]]>
+    </line>
+    <line>
+      <![CDATA[User logged out successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Login form displayed.]]>
+    </line>
+    <line>
+      <![CDATA[User logged out successfully.]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17941" started-at="2023-11-17T10:38:05Z" finished-at="2023-11-17T10:38:22Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="17941" started-at="2023-11-17T10:38:05Z" finished-at="2023-11-17T10:38:22Z">
+      <class name="edit_acc_test.EditAddrTest">
+        <test-method status="PASS" signature="initObjects()[pri:0, instance:edit_acc_test.EditAddrTest@553f17c]" name="initObjects" is-config="true" duration-ms="1" started-at="2023-11-17T16:08:08Z" finished-at="2023-11-17T16:08:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initObjects -->
+        <test-method status="PASS" signature="login()[pri:0, instance:edit_acc_test.EditAddrTest@553f17c]" name="login" is-config="true" duration-ms="1210" started-at="2023-11-17T16:08:08Z" finished-at="2023-11-17T16:08:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login form displayed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="performEditAddrTest()[pri:2, instance:edit_acc_test.EditAddrTest@553f17c]" name="performEditAddrTest" duration-ms="5543" started-at="2023-11-17T16:08:09Z" finished-at="2023-11-17T16:08:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performEditAddrTest -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:edit_acc_test.EditAddrTest@553f17c]" name="logout" is-config="true" duration-ms="628" started-at="2023-11-17T16:08:15Z" finished-at="2023-11-17T16:08:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[User logged out successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- edit_acc_test.EditAddrTest -->
+      <class name="edit_acc_test.EditAccTest1">
+        <test-method status="PASS" signature="initBrowser()[pri:0, instance:edit_acc_test.EditAccTest1@5f341870]" name="initBrowser" is-config="true" duration-ms="5256" started-at="2023-11-17T16:07:59Z" finished-at="2023-11-17T16:08:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method status="PASS" signature="initObjects()[pri:0, instance:edit_acc_test.EditAccTest1@5f341870]" name="initObjects" is-config="true" duration-ms="43" started-at="2023-11-17T16:08:05Z" finished-at="2023-11-17T16:08:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initObjects -->
+        <test-method status="PASS" signature="login()[pri:0, instance:edit_acc_test.EditAccTest1@5f341870]" name="login" is-config="true" duration-ms="1528" started-at="2023-11-17T16:08:05Z" finished-at="2023-11-17T16:08:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login form displayed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="performEditAccTest()[pri:1, instance:edit_acc_test.EditAccTest1@5f341870]" name="performEditAccTest" duration-ms="1269" started-at="2023-11-17T16:08:06Z" finished-at="2023-11-17T16:08:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performEditAccTest -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:edit_acc_test.EditAccTest1@5f341870]" name="logout" is-config="true" duration-ms="630" started-at="2023-11-17T16:08:07Z" finished-at="2023-11-17T16:08:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[User logged out successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:edit_acc_test.EditAccTest1@5f341870]" name="tearDown" is-config="true" duration-ms="786" started-at="2023-11-17T16:08:23Z" finished-at="2023-11-17T16:08:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- edit_acc_test.EditAccTest1 -->
+      <class name="edit_acc_test.EditPassTest">
+        <test-method status="PASS" signature="initObjects()[pri:0, instance:edit_acc_test.EditPassTest@4f7d0008]" name="initObjects" is-config="true" duration-ms="0" started-at="2023-11-17T16:08:15Z" finished-at="2023-11-17T16:08:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initObjects -->
+        <test-method status="PASS" signature="login()[pri:0, instance:edit_acc_test.EditPassTest@4f7d0008]" name="login" is-config="true" duration-ms="1161" started-at="2023-11-17T16:08:15Z" finished-at="2023-11-17T16:08:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login form displayed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="performEditPassTest()[pri:3, instance:edit_acc_test.EditPassTest@4f7d0008]" name="performEditPassTest" duration-ms="5296" started-at="2023-11-17T16:08:17Z" finished-at="2023-11-17T16:08:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performEditPassTest -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:edit_acc_test.EditPassTest@4f7d0008]" name="logout" is-config="true" duration-ms="608" started-at="2023-11-17T16:08:22Z" finished-at="2023-11-17T16:08:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[User logged out successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- edit_acc_test.EditPassTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

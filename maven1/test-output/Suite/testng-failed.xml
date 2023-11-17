@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="edit_acc_test.EditPassTest">
+        <methods>
+          <include name="initObjects"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="performEditPassTest"/>
+        </methods>
+      </class> <!-- edit_acc_test.EditPassTest -->
+      <class name="edit_acc_test.EditAddrTest">
+        <methods>
+          <include name="initObjects"/>
+          <include name="logout"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- edit_acc_test.EditAddrTest -->
+      <class name="edit_acc_test.EditAccTest1">
+        <methods>
+          <include name="initObjects"/>
+          <include name="initBrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- edit_acc_test.EditAccTest1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
