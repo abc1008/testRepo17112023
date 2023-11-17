@@ -68,7 +68,7 @@ public class LoginPage {
 			{
 				Reporter.log("User logged out successfully.", true);
 				Reporter.log("Test note for GIT.", true);
-				Reporter.log("Test note for GIT2.", true);
+				Reporter.log("Test note for GIT2_UPDATE.", true);
 			}
 		}
 	
